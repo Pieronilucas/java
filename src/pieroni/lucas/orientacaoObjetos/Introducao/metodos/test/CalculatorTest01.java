@@ -10,6 +10,9 @@ public class CalculatorTest01 {
         calc.twoNumbersSubtract();
         System.out.println("------------");
         calc.twoNumbersMultiply(20, 30);
+        System.out.println("------------");
+        double result = calc.twoNumbersDivide(20, 0);
+        System.out.println(result);
     }
 
 }
