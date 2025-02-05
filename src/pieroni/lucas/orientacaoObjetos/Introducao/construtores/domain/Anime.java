@@ -13,8 +13,9 @@ public class Anime {
         this.episode = episode;
         this.genre = genre;
     }
+
     public Anime(String name, String type, int episode, String genre, String studio) {
-        this(name , type, episode, genre);
+        this(name, type, episode, genre);
         this.studio = studio;
     }
 
